@@ -1,41 +1,15 @@
-# Welcome to Remix!
+# AI Reflection
 
-- 📖 [Remix docs](https://remix.run/docs)
+## 2-3 prompts you asked AI
 
-## Development
+- What's the syntax to generate a random number?
+- What's How do I convert a RGB value to a hexcode?
+- Is it possible to include conditional styles using tailwind css?
 
-Run the dev server:
+## A sentence or two on how AI helped (debugging, design, etc.)
 
-```shellscript
-npm run dev
-```
+- AI was great to help debug, especially with styles. For example, I wanted a thicker border for my boxes, so I input `border-5` However, nothing was showing up, so I asked, `can you tell why my borders aren't showing up?` and it said that it was because tailwind CSS doesn't take `border-5` as a value.
 
-## Deployment
+## One thing you figured out on your own
 
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
-# colorChallengeGame
+I figured out conditional rendering of the components, logic behind defining game states, and storing data in my useStates.
